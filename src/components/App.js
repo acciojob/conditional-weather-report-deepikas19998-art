@@ -1,6 +1,6 @@
 
 import React, { useState } from "react";
-import WeatherDisplay from "./WeatherDisplay";
+import WeatherDisplay from "./weatherDisplay";
 
 function App() {
   const [weather] = useState({ temperature: 25, conditions: "Sunny" });
